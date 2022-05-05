@@ -5,12 +5,12 @@
 #game{
     width: 500px;
     height: 200;
-    border: 1px solid black;
+    border: 1px solid seagreen;
 }
 #character{
     width: 20px;
     height: 50px;
-    background-color: green;
+    background-image: url("character.jpg");
     position: relative;
     top: 150px;
 }
@@ -27,7 +27,7 @@
 #block{
     width: 20px;
     height: 20px;
-    background-color: maroon;
+    background-image: url("goblin.jpg");
     position: relative;
     top: 130px;
     left: 480px;
@@ -36,4 +36,7 @@
 @keyframes block{
     0%{left: 480px;}
     100%{left: 480px;}
+}
+.background{
+    background-image: url("background.png");
 }
